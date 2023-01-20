@@ -1,0 +1,32 @@
+.input{
+    width: 15rem;
+    height: 2.2rem;
+    border: 0;
+    padding-left: 1rem;
+    background-color: lavender;
+    border-radius: 0.2rem;
+}
+.input:focus{
+    outline: none;
+    background-color: powderblue;
+}
+.input::placeholder{
+    padding-left: 0.5rem;
+}
+.input option{
+    background-color: white;
+}
+
+.btn{
+    border: 0;
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 0.9rem;
+    background-color: lightsteelblue;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: steelblue;
+    color: whitesmoke;
+}

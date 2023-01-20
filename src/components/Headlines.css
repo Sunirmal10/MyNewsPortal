@@ -1,0 +1,55 @@
+.headlines{
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    width: 20rem;
+
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0.2rem 0.2rem 0 lightgray;
+    padding: 0.5rem;
+
+}
+.form h4{
+    margin: 0;
+}
+.form p{
+    margin: 0;
+    font-size: smaller;
+}
+
+.headbody{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 0 0.2rem 0.2rem 0 lightgray;
+    gap: 0.5rem;
+    padding: 0.5rem;
+ 
+
+}
+.imghead{
+    height: 5rem;
+    width: 5rem;
+
+}
+.container:hover{
+    border-bottom: 0.2rem solid tomato;
+}
+.btngrp2{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    
+}
