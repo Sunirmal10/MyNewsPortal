@@ -1,8 +1,7 @@
-const dotenv = require("dotenv");
-dotenv.config();
+
 import React,{createContext, useState} from "react";
 import axios from 'axios';
-
+import { API_URL, API_KEY } from "./Api";
 
 const ValueContext = createContext();
 
@@ -66,7 +65,7 @@ const ValueProvider = ({children})=>{
            url: process.env.API_URL,
            params: {q: query,page_size: 20, page: '1'},
            headers: {
-             'x-api-key': process.env.API_KEY,
+             'x-api-key': API_KEY,
            }}
      
           await axios.request(options)
@@ -93,7 +92,7 @@ const ValueProvider = ({children})=>{
        
          let options = {
                method: 'GET',
-               url: process.env.API_URL,
+               url: API_URL,
                params: {q: key, lang: select, countries: coun, topic: topicx, sort_by: sort, page_size: 20, page: '1'},
                headers: {
                  'x-api-key': process.env.API_KEY,

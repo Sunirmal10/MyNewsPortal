@@ -1,11 +1,10 @@
-const dotenv = require("dotenv");
-dotenv.config();
+
 import React, {useState} from 'react';
 import { countryCodes } from './Array';
 import axios from 'axios';
 import './Headlines.css';
-import './input.css'
-
+import './input.css';
+import {  API_KEY2 } from "./Api";
 function Headlines() {
 
   const [coun, setCoun] = useState('')
@@ -33,7 +32,7 @@ function Headlines() {
            url: "https://api.newscatcherapi.com/v2/latest_headlines",
            params: { countries: coun, when: time, page_size: 15, page: 1},
            headers: {
-             'x-api-key': process.env.API_KEY2,
+             'x-api-key': API_KEY2,
            }}
      
          return await axios.request(options)
