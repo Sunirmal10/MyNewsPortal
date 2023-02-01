@@ -1,8 +1,8 @@
-export const API_URL="https://api.newscatcherapi.com/v2/search";
+export const API_URL = "https://api.newscatcherapi.com/v2/search";
 
 export const API_KEY = "cBRPEBY-EbuYBzK8KDPVmQvnI5R0PyPRe4GUOm6tPXk";
 
-export const API_KEY2 ='ZzT38R0nQM0uA5hlZui5xnNjN2Au_MQu3MUosvvebqw';
+export const API_KEY2 = "ZzT38R0nQM0uA5hlZui5xnNjN2Au_MQu3MUosvvebqw";
 
 // const API_KEY = "jWwzF0dMOxLATWPDxKtkQJ1L2xNWOzEgJDBrS8Jo9F0";
 

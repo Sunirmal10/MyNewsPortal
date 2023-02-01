@@ -1,53 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;1,100&display=swap");
 
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
 }
-.mainbody{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+body {
+  overflow-x: hidden;
 }
-.appbody{
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    padding-top: 0.2rem;
-    width: 100%;
-    background-color: white;
+.mainbody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.appbody {
+  display: flex;
+  margin-top: 4.5rem;
+  height: max-content;
+  gap: 0.5rem;
+  padding-top: 0.2rem;
+  background-color: white;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    html{
-        font-size: 55%;
-       }
+  html {
+    font-size: 40%;
   }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    html{
-        font-size: 65%;
-       }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 65%;
   }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    html{
-        font-size: 85%;
-       }
-  } 
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    html{
-        font-size: 95%;
-       }
-  } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    html{
-        font-size: 100%;
-       }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 85%;
   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 100%;
+  }
+}

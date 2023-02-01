@@ -1,30 +1,33 @@
-.filter{
-    background-color: white;
-    position: sticky;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 18rem;
-    padding: 1rem;
-    height: 41rem;
-    box-shadow: 0 0.2rem 0.2rem 0 lightgray;
+.filter {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 18rem;
+  padding: 1rem;
+  height: 44rem;
+  box-shadow: 0 0.2rem 0.2rem 0 lightgray;
+  transition: all 1s ease;
 }
-.req{
-    font-size: small;
-    margin: 0;
+
+.req {
+  font-size: 0.8rem;
+  margin: 0;
 }
-.filter form{
-    display: flex;
-    flex-direction: column;
+.filter form {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
 }
-.keysugg{
-    margin: 0;
-    font-weight:bold;
-    font-size: 0.7rem;
-    text-align: justify;
+
+.keysugg {
+  margin: 0;
+  font-weight: bold;
+  font-size: 0.7rem;
+  text-align: justify;
 }
-.btngrp{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+.btngrp {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }

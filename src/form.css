@@ -1,25 +1,23 @@
-body{
-    background-color: rgb(216, 193, 247);
+body {
+  background-color: rgb(216, 193, 247);
 }
 
-.box{
-    display: flex;
-
-
+.box {
+  display: flex;
 }
-.form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 10px;
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
 }
-.bookLabel{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+.bookLabel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
-form input{
-height: 40px;   
+form input {
+  height: 40px;
 }
