@@ -1,7 +1,7 @@
 
 # News Portal Application
 
-It is a API based news reading site for getting news and headlines regarding various topics around the world.
+It is an API based news reading site for getting news and headlines regarding various topics around the world.
 
 Here, you get two filter methods-
 1> You can filter according to your desired publisher's language, publisher's country, relevance, topic, and specific queries.
